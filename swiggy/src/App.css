@@ -1,0 +1,306 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* HEADER */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: #eb4408;
+  color: white;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.leftImg {
+  align-items: left;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-left img {
+  height: 40px;
+  border-radius: 15px;
+}
+
+.nav-left h2 {
+  font-size: 22px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-right h3 {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.get-app {
+  padding: 20px 18px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.sign-in {
+  padding: 20px 18px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 150px;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  background-color: #eb4408;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  height: 165px;
+  z-index: 10px;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.hero-img {
+  position: absolute;
+  bottom: 0;
+  height: 300px;
+}
+
+/* left image */
+.left-img {
+  height: 450px;
+  width: 250px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* right image */
+.right-img {
+  height: 500px;
+  width: 250px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  position: relative;
+}
+
+.search-box input {
+  width: 350px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.search-box p {
+  position: absolute;
+  top: 43px;
+  left: 46%;
+  transform: translateX(-50%);
+  color: white;
+  font-weight: bold;
+
+}
+
+.search-box button {
+  padding: 1px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* SERVICES */
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  background: #eb4408;
+}
+
+/* CARD */
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px;
+  background-color: #eb4408;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 270px;
+  background: #f2f2f2;
+  border-radius: 25px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.card-text h1 {
+  font-size: 35px;
+  font-weight: bolder;
+  color: #333;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.card-text h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: gray;
+  margin-top: 0;
+}
+
+.food-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 120px;
+}
+
+.offer {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 16px 12px;
+  background: #ffe5d0;
+  color: #fc8019;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: #fc8019;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background: #ccccce;
+  color: #555454;
+  padding: 50px 5% 30px;
+  font-size: 14px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 40px;
+  color: #eb4408;
+}
+
+.footer-top h2 {
+  font-size: 30px;
+}
+
+.footer-top p {
+  color: #555454;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footer-column h4 {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer-column p {
+  margin-bottom: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  line-height: 1.6;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.available-cities h4,
+.social-links h4 {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.city-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.footer-note {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  font-size: 12px;
+  color: #666;
+}
