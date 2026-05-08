@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Card from "./components/Card";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 import Food from "./pages/main_pages/Food";

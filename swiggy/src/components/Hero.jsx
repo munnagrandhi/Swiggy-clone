@@ -56,30 +56,30 @@ function Hero() {
         </div>
 
         <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Sushi_replace.png" alt="right" className="hero-img right-img" />
+        <div className="services">
+          <Card
+            title="Food Delivery"
+            dec="from resturent"
+            offer="UPTO 60% OFF"
+            imge="Screenshot 2026-04-27 173527.png"
+            link="/food"
+          />
+          <Card
+            title="Instamart"
+            dec="from resturent"
+            offer="UPTO 60% OFF"
+            imge="Screenshot 2026-04-27 173539.png"
+            link="/instamart"
+          />
+          <Card
+            title="Dineout"
+            dec="from resturent"
+            offer="UPTO 60% OFF"
+            imge="Screenshot 2026-04-27 173546.png"
+            link="/dineout"
+          />
+        </div>
       </section>
-      <div className="services">
-        <Card
-          title="Food Delivery"
-          dec="from resturent"
-          offer="UPTO 60% OFF"
-          imge="Screenshot 2026-04-27 173527.png"
-          link="/food"
-        />
-        <Card
-          title="Instamart"
-          dec="from resturent"
-          offer="UPTO 60% OFF"
-          imge="Screenshot 2026-04-27 173539.png"
-          link="/instamart"
-        />
-        <Card
-          title="Dineout"
-          dec="from resturent"
-          offer="UPTO 60% OFF"
-          imge="Screenshot 2026-04-27 173546.png"
-          link="/dineout"
-        />
-      </div>
     </form>
   );
 }

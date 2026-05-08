@@ -66,6 +66,7 @@ a {
   width: 150px;
 }
 
+
 /* HERO */
 .hero {
   position: relative;
@@ -74,8 +75,6 @@ a {
   text-align: center;
   color: white;
   overflow: hidden;
-  height: 165px;
-  z-index: 10px;
 }
 
 .hero-content {
@@ -189,7 +188,7 @@ a {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 165px;
+  width: 145px;
 }
 
 .offer {
