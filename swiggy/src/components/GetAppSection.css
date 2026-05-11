@@ -1,0 +1,121 @@
+/* GET APP SECTION */
+.getapp-section {
+  max-width: 1350px;
+  margin: 40px auto 20px;
+  padding: 0 20px;
+}
+
+/* Dark banner */
+.getapp-banner {
+  position: relative;
+  background: #1c1c2e;
+  padding: 20px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+
+
+/* Left text side */
+.getapp-text {
+  flex: 1;
+  max-width: 520px;
+}
+
+.getapp-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.getapp-logo-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
+}
+
+.getapp-brand-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #eb4408;
+  letter-spacing: 0.5px;
+}
+
+.getapp-text h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 10px 0;
+  line-height: 1.2;
+}
+
+.getapp-text p {
+  font-size: 15px;
+  color: #9f9faf;
+  margin: 0 0 28px 0;
+}
+
+/* Store badges */
+.getapp-store-badges {
+  display: flex;
+  gap: 14px;
+}
+
+.store-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.store-badge:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Phone / QR side */
+.getapp-phone-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.getapp-phone {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 0 6px rgba(255,255,255,0.08);
+}
+
+.getapp-qr {
+  width: 160px;
+  height: 160px;
+  border-radius: 8px;
+  display: block;
+}
+
+.getapp-scan-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: #eb4408;
+  margin: 0;
+  letter-spacing: 0.3px;
+}

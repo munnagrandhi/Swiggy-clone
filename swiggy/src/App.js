@@ -11,6 +11,7 @@ import Dineout from "./pages/main_pages/Dineout";
 import FoodOptions from "./components/FoodOptions";
 import InstamartSection from "./components/InstamartSection";
 import DineoutSection from "./components/DineoutSection";
+import GetAppSection from "./components/GetAppSection";
 
 /* MAIN APP */
 function App() {
@@ -29,6 +30,7 @@ function App() {
               <FoodOptions />
               <InstamartSection />
               <DineoutSection />
+              <GetAppSection />
               <Footer />
             </>
           }
