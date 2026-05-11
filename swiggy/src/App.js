@@ -9,6 +9,8 @@ import Instamart from "./pages/main_pages/Instamart";
 import Dineout from "./pages/main_pages/Dineout";
 
 import FoodOptions from "./components/FoodOptions";
+import InstamartSection from "./components/InstamartSection";
+import DineoutSection from "./components/DineoutSection";
 
 /* MAIN APP */
 function App() {
@@ -25,6 +27,8 @@ function App() {
             <>
               <Hero />
               <FoodOptions />
+              <InstamartSection />
+              <DineoutSection />
               <Footer />
             </>
           }

@@ -1,0 +1,187 @@
+/* DINEOUT SECTION */
+.dineout-container {
+  max-width: 1350px;
+  margin: 40px auto 60px;
+  padding: 0 20px;
+}
+
+.dineout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.dineout-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dineout-title-group h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #02060c;
+  margin: 0;
+}
+
+.dineout-subtitle {
+  font-size: 13px;
+  color: #686b78;
+  font-weight: 500;
+}
+
+/* Scroll buttons */
+.dineout-scroll-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.dineout-scroll-btn {
+  background-color: #e2e2e7;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #02060c;
+  transition: background-color 0.2s ease;
+}
+
+.dineout-scroll-btn:hover {
+  background-color: #d1d1d6;
+}
+
+/* Scrollable track */
+.dineout-scroll {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.dineout-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Horizontal list of cards */
+.dineout-list {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 16px;
+}
+
+/* Each card */
+.dineout-card {
+  flex: 0 0 280px;
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dineout-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Card image */
+.dineout-card-img {
+  position: relative;
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+}
+
+.dineout-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.dineout-card:hover .dineout-card-img img {
+  transform: scale(1.05);
+}
+
+/* Gradient overlay with price tag */
+.dineout-img-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px 12px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.65));
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dineout-price-tag {
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 3px 8px;
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
+}
+
+/* Card info */
+.dineout-card-info {
+  padding: 14px 16px 16px;
+}
+
+.dineout-name-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.dineout-name-row h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #02060c;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dineout-rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: #48c479;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 8px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.dineout-cuisine {
+  font-size: 12px;
+  color: #686b78;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+}
+
+.dineout-desc {
+  font-size: 12px;
+  color: #93959f;
+  line-height: 1.5;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
