@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import './InstamartSection.css';
 
 const groceries = [
-  { name: 'Fresh Vegetables', image: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_225,h_225/Instamart/Vegetables.png' },
+  { name: 'Fresh Vegetables', image: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/CIW/2025/5/14/43e3c412-4ca9-4894-82ba-24b69da80aa6_06c0d2a9-804c-4bf1-8725-7ebd234e144a' },
   { name: 'Fresh Fruits', image: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_225,h_225/Instamart/Fruits.png' },
   { name: 'Dairy & Eggs', image: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_225,h_225/Instamart/DairyAndEggs.png' },
   { name: 'Bread & Bakery', image: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_225,h_225/Instamart/Bread.png' },
