@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './FoodOptions.css';
 
 const foodList = [
@@ -25,12 +25,39 @@ const foodList = [
 ];
 
 const FoodOptions = () => {
+  const scrollRef = useRef(null);
+
+  const scroll = (direction) => {
+    if (scrollRef.current) {
+      const { current } = scrollRef;
+      if (direction === 'left') {
+        current.scrollBy({ left: -400, behavior: 'smooth' });
+      } else {
+        current.scrollBy({ left: 400, behavior: 'smooth' });
+      }
+    }
+  };
+
   return (
     <div className="food-options-container">
       <div className="food-options-header">
         <h2>What's on your mind?</h2>
+        <div className="scroll-buttons">
+          <button className="scroll-btn" onClick={() => scroll('left')}>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M12 19L5 12l7-7" />
+              <path d="M5 12h14" />
+            </svg>
+          </button>
+          <button className="scroll-btn" onClick={() => scroll('right')}>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M12 5l7 7-7 7" />
+              <path d="M19 12H5" />
+            </svg>
+          </button>
+        </div>
       </div>
-      <div className="food-options-scroll">
+      <div className="food-options-scroll" ref={scrollRef}>
         <div className="food-options-grid">
           {foodList.map((food, index) => (
             <div key={index} className="food-item">

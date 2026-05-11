@@ -18,6 +18,30 @@
   margin: 0;
 }
 
+.scroll-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.scroll-btn {
+  background-color: #e2e2e7;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  color: #02060c;
+  transition: background-color 0.2s ease;
+}
+
+.scroll-btn:hover {
+  background-color: #d1d1d6;
+}
+
 .food-options-scroll {
   overflow-x: auto;
   scrollbar-width: none; /* Firefox */
