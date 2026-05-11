@@ -16,6 +16,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-left: 135px;
 }
 
 .leftImg {
@@ -90,8 +91,8 @@ a {
 
 /* left image */
 .left-img {
-  height: 450px;
-  width: 250px;
+  height: 500px;
+  width: 252px;
   position: absolute;
   left: 0;
   top: 0;
