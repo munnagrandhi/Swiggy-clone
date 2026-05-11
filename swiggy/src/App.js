@@ -8,6 +8,8 @@ import Food from "./pages/main_pages/Food";
 import Instamart from "./pages/main_pages/Instamart";
 import Dineout from "./pages/main_pages/Dineout";
 
+import FoodOptions from "./components/FoodOptions";
+
 /* MAIN APP */
 function App() {
   return (
@@ -22,7 +24,7 @@ function App() {
           element={
             <>
               <Hero />
-              
+              <FoodOptions />
               <Footer />
             </>
           }
